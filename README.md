@@ -24,6 +24,28 @@
 #### 参与贡献
   维护: @无关几何
   提交代码 @无关几何
+  
+  ####sql
+  --drop database keyword
+  create database keyword on(
+  name='keywordDB',
+  filename='c:\database\keywordDB.mdf',
+  size=10mb,
+  maxsize=40mb,
+  filegrowth=2mb
+  ) log on(
+  name='keywordDB_log',
+  filename='c:\database\keywordDB_log.ldf',
+  size=5mb,
+  maxsize=20mb,
+  filegrowth=1mb
+  )
+  
+  create table score(
+  	username varchar(20) primary key not null,
+  	password varchar(20) not null,
+  	score int default(0) not null
+  )
 
 
 
