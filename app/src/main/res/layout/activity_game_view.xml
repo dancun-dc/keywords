@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FF607D8B"
+              android:orientation="vertical"
+>
+    <TextView android:text="游戏结束"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:textSize="25sp"
+              android:textColor="#cccccc"
+              android:id="@+id/tv_title"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center">
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:text="失误单词"
+                  android:layout_weight="1.0"
+                  android:id="@+id/tv_left"
+                  android:gravity="center"
+                  android:textAlignment="center"
+                  android:textSize="20sp"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="40dp"
+                  android:layout_weight="1.0"
+                  android:text="是否是关键字"
+                  android:id="@+id/tv_center"
+                  android:gravity="center"
+                  android:textAlignment="center"
+                  android:textSize="20sp"/>
+        <TextView android:layout_width="match_parent"
+                  android:layout_weight="1.0"
+                  android:layout_height="40dp"
+                  android:gravity="center"
+                  android:textAlignment="center"
+                  android:text="正确关键字"
+                  android:id="@+id/tv_right"
+                  android:textSize="20sp"/>
+    </LinearLayout>
+    <ListView android:id="@+id/listView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:gravity="center"
+                  android:layout_height="wrap_content">
+        <Button android:layout_width="80dp"
+                android:text="结束游戏"
+                android:layout_marginRight="60sp"
+                android:background="#50cccccc"
+                android:id="@+id/btn_finishGame"
+                android:layout_height="40dp"/>
+        <Button android:layout_width="80dp"
+                android:text="重新开始"
+                android:id="@+id/btn_reGame"
+                android:background="#50cccccc"
+                android:layout_height="40dp"/>
+    </LinearLayout>
+
+</LinearLayout>

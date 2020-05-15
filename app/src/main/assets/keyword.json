@@ -1,0 +1,1370 @@
+{
+  "c": [
+    {
+      "keyword": "void",
+      "type": "true"
+    },
+    {
+      "keyword": "int",
+      "type": "true"
+    },
+    {
+      "keyword": "char",
+      "type": "true"
+    },
+    {
+      "keyword": "float",
+      "type": "true"
+    },
+    {
+      "keyword": "double",
+      "type": "true"
+    },
+    {
+      "keyword": "bool",
+      "type": "true"
+    },
+    {
+      "keyword": "w_char",
+      "type": "true"
+    },
+    {
+      "keyword": "struct",
+      "type": "true"
+    },
+    {
+      "keyword": "union",
+      "type": "true"
+    },
+    {
+      "keyword": "enum",
+      "type": "true"
+    },
+    {
+      "keyword": "class",
+      "type": "true"
+    },
+    {
+      "keyword": "typedef",
+      "type": "true"
+    },
+    {
+      "keyword": "true",
+      "type": "true"
+    },
+    {
+      "keyword": "false",
+      "type": "true"
+    },
+    {
+      "keyword": "long",
+      "type": "true"
+    },
+    {
+      "keyword": "short",
+      "type": "true"
+    },
+    {
+      "keyword": "singed",
+      "type": "true"
+    },
+    {
+      "keyword": "unsigned",
+      "type": "true"
+    },
+    {
+      "keyword": "const",
+      "type": "true"
+    },
+    {
+      "keyword": "volatile",
+      "type": "true"
+    },
+    {
+      "keyword": "restrict",
+      "type": "true"
+    },
+    {
+      "keyword": "auto",
+      "type": "true"
+    },
+    {
+      "keyword": "register",
+      "type": "true"
+    },
+    {
+      "keyword": "static",
+      "type": "true"
+    },
+    {
+      "keyword": "extern",
+      "type": "true"
+    },
+    {
+      "keyword": "thread_local",
+      "type": "true"
+    },
+    {
+      "keyword": "mutable",
+      "type": "true"
+    },
+    {
+      "keyword": "inline",
+      "type": "true"
+    },
+    {
+      "keyword": "asm",
+      "type": "true"
+    },
+    {
+      "keyword": "for",
+      "type": "true"
+    },
+    {
+      "keyword": "while",
+      "type": "true"
+    },
+    {
+      "keyword": "do",
+      "type": "true"
+    },
+    {
+      "keyword": "break",
+      "type": "true"
+    },
+    {
+      "keyword": "continue",
+      "type": "true"
+    },
+    {
+      "keyword": "return",
+      "type": "true"
+    },
+    {
+      "keyword": "goto",
+      "type": "true"
+    },
+    {
+      "keyword": "if",
+      "type": "true"
+    },
+    {
+      "keyword": "else",
+      "type": "true"
+    },
+    {
+      "keyword": "switch",
+      "type": "true"
+    },
+    {
+      "keyword": "case",
+      "type": "true"
+    },
+    {
+      "keyword": "default",
+      "type": "true"
+    },
+    {
+      "keyword": "new",
+      "type": "true"
+    },
+    {
+      "keyword": "delete",
+      "type": "true"
+    },
+    {
+      "keyword": "sizeof",
+      "type": "true"
+    },
+    {
+      "keyword": "and",
+      "type": "true"
+    },
+    {
+      "keyword": "and_eq",
+      "type": "true"
+    },
+    {
+      "keyword": "bitand",
+      "type": "true"
+    },
+    {
+      "keyword": "bitor",
+      "type": "true"
+    },
+    {
+      "keyword": "compl",
+      "type": "true"
+    },
+    {
+      "keyword": "not_eq",
+      "type": "true"
+    },
+    {
+      "keyword": "or",
+      "type": "true"
+    },
+    {
+      "keyword": "or_eq",
+      "type": "true"
+    },
+    {
+      "keyword": "xor",
+      "type": "true"
+    },
+    {
+      "keyword": "xor_eq",
+      "type": "true"
+    },
+    {
+      "keyword": "this",
+      "type": "true"
+    },
+    {
+      "keyword": "friend",
+      "type": "true"
+    },
+    {
+      "keyword": "virtual",
+      "type": "true"
+    },
+    {
+      "keyword": "explicit",
+      "type": "true"
+    },
+    {
+      "keyword": "operator",
+      "type": "true"
+    },
+    {
+      "keyword": "private",
+      "type": "true"
+    },
+    {
+      "keyword": "protected",
+      "type": "true"
+    },
+    {
+      "keyword": "public",
+      "type": "true"
+    },
+    {
+      "keyword": "template",
+      "type": "true"
+    },
+    {
+      "keyword": "typename",
+      "type": "true"
+    },
+    {
+      "keyword": "namespace",
+      "type": "true"
+    },
+    {
+      "keyword": "using",
+      "type": "true"
+    },
+    {
+      "keyword": "throw",
+      "type": "true"
+    },
+    {
+      "keyword": "try",
+      "type": "true"
+    },
+    {
+      "keyword": "catch",
+      "type": "true"
+    },
+    {
+      "keyword":"voad",
+      "type": "false",
+      "rightkey":"void"
+    },
+    {
+      "keyword": "inte",
+      "type": "false",
+      "rightkey":"int"
+    },
+    {
+      "keyword": "cher",
+      "type": "false",
+      "rightkey":"char"
+    },
+    {
+      "keyword": "flaot",
+      "type": "false",
+      "rightkey":"float"
+    },
+    {
+      "keyword": "douleb",
+      "type": "false",
+      "rightkey":"double"
+    },
+    {
+      "keyword": "dool",
+      "type": "false",
+      "rightkey":"bool"
+    },
+    {
+      "keyword": "w_cher",
+      "type": "false",
+      "rightkey":"w_char"
+    },
+    {
+      "keyword": "struat",
+      "type": "false",
+      "rightkey":"struct"
+    },
+    {
+      "keyword": "unian",
+      "type": "false",
+      "rightkey":"union"
+    },
+    {
+      "keyword": "eunm",
+      "type": "false",
+      "rightkey":"enum"
+    },
+    {
+      "keyword": "closs",
+      "type": "false",
+      "rightkey":"class"
+    },
+    {
+      "keyword": "typadef",
+      "type": "false",
+      "rightkey":"typedef"
+    },
+    {
+      "keyword": "ture",
+      "type": "false",
+      "rightkey":"true"
+    },
+    {
+      "keyword": "fales",
+      "type": "false",
+      "rightkey":"false"
+    },
+    {
+      "keyword": "lang",
+      "type": "false",
+      "rightkey":"long"
+    },
+    {
+      "keyword": " shrot",
+      "type": "false",
+      "rightkey":"short"
+    },
+    {
+      "keyword": "seing",
+      "type": "false",
+      "rightkey":"singed"
+    },
+    {
+      "keyword": "usingned",
+      "type": "false",
+      "rightkey":"unsigned"
+    },
+    {
+      "keyword": "conts",
+      "type": "false",
+      "rightkey":"const"
+    },
+    {
+      "keyword": "valotile",
+      "type": "false",
+      "rightkey":"volatile"
+    },
+    {
+      "keyword": "restirct",
+      "type": "false",
+      "rightkey":"restrict"
+    },
+    {
+      "keyword": "auta",
+      "type": "false",
+      "rightkey":"auto"
+    },
+    {
+      "keyword": "regsiter",
+      "type": "false",
+      "rightkey":"register"
+    },
+    {
+      "keyword": "stitac",
+      "type": "false",
+      "rightkey":"static"
+    },
+    {
+      "keyword": "exertn",
+      "type": "false",
+      "rightkey":"extern"
+    },
+    {
+      "keyword": "thraed_lacol",
+      "type": "false",
+      "rightkey":"thread_local"
+    },
+    {
+      "keyword": "motable",
+      "type": "false",
+      "rightkey":"mutable"
+    },
+    {
+      "keyword": "inilne",
+      "type": "false",
+      "rightkey":"inline"
+    },
+    {
+      "keyword": "aem",
+      "type": "false",
+      "rightkey":"asm"
+    },
+    {
+      "keyword": "far",
+      "type": "false",
+      "rightkey":"for"
+    },
+    {
+      "keyword": "whlie",
+      "type": "false",
+      "rightkey":"while"
+    },
+    {
+      "keyword": "dare",
+      "type": "false",
+      "rightkey":"do"
+    },
+    {
+      "keyword": "braek",
+      "type": "false",
+      "rightkey":"break"
+    },
+    {
+      "keyword": "conitnue",
+      "type": "false",
+      "rightkey":"continue"
+    },
+    {
+      "keyword": "retrun",
+      "type": "false",
+      "rightkey":"return"
+    },
+    {
+      "keyword": "gato",
+      "type": "false",
+      "rightkey":"goto"
+    },
+    {
+      "keyword": "ifite",
+      "type": "false",
+      "rightkey":"if"
+    },
+    {
+      "keyword": "eles",
+      "type": "false",
+      "rightkey":"else"
+    },
+    {
+      "keyword": "swtich",
+      "type": "false",
+      "rightkey":"switch"
+    },
+    {
+      "keyword": "cesa",
+      "type": "false",
+      "rightkey":"case"
+    },
+    {
+      "keyword": "deafult",
+      "type": "false",
+      "rightkey":"default"
+    },
+    {
+      "keyword": "now",
+      "type": "false",
+      "rightkey":"new"
+    },
+    {
+      "keyword": "deltea",
+      "type": "false",
+      "rightkey":"delete"
+    },
+    {
+      "keyword": "sizoef",
+      "type": "false",
+      "rightkey":"sizeof"
+    },
+    {
+      "keyword": "anad",
+      "type": "false",
+      "rightkey":"and"
+    },
+    {
+      "keyword": "and_aq",
+      "type": "false",
+      "rightkey":"and_eq"
+    },
+    {
+      "keyword": "btiot",
+      "type": "false",
+      "rightkey":"bitor"
+    },
+    {
+      "keyword": "comerpl",
+      "type": "false",
+      "rightkey":"compl"
+    },
+    {
+      "keyword": "are",
+      "type": "false",
+      "rightkey":"or"
+    },
+    {
+      "keyword": " or_aq",
+      "type": "false",
+      "rightkey":"or_eq"
+    },
+    {
+      "keyword": "xar",
+      "type": "false",
+      "rightkey":"xor"
+    },
+    {
+      "keyword": "xar_eq",
+      "type": "false",
+      "rightkey":"xor_eq"
+    },
+    {
+      "keyword": "thise",
+      "type": "false",
+      "rightkey":"this"
+    },
+    {
+      "keyword": "firend",
+      "type": "false",
+      "rightkey":"friend"
+    },
+    {
+      "keyword": "vritual",
+      "type": "false",
+      "rightkey":"virtual"
+    },
+    {
+      "keyword": "expilcti",
+      "type": "false",
+      "rightkey":"explicit"
+    },
+    {
+      "keyword": "opertaor",
+      "type": "false",
+      "rightkey":"operator"
+    },
+    {
+      "keyword": "privates",
+      "type": "false",
+      "rightkey":"private"
+    },
+    {
+      "keyword": "protacted",
+      "type": "false",
+      "rightkey":"protected"
+    },
+    {
+      "keyword": "pubilc",
+      "type": "false",
+      "rightkey":"public"
+    },
+    {
+      "keyword": "tamplate",
+      "type": "false",
+      "rightkey":"template"
+    },
+    {
+      "keyword": "typaname",
+      "type": "false",
+      "rightkey":"typename"
+    },
+    {
+      "keyword": "namepace",
+      "type": "false",
+      "rightkey":"namespace"
+    },
+    {
+      "keyword": "unsings",
+      "type": "false",
+      "rightkey":"using"
+    },
+    {
+      "keyword": "tay",
+      "type": "false",
+      "rightkey":"try"
+    },
+    {
+      "keyword": "catech",
+      "type": "false",
+      "rightkey":"catch"
+    }
+  ],
+  "java": [
+    {
+      "keyword": "abstract",
+      "type": "true"
+    },
+    {
+      "keyword": "assert",
+      "type": "true"
+    },
+    {
+      "keyword": "boolean",
+      "type": "true"
+    },
+    {
+      "keyword": "break",
+      "type": "true"
+    },
+    {
+      "keyword": "case",
+      "type": "true"
+    },
+    {
+      "keyword": "catch",
+      "type": "true"
+    },
+    {
+      "keyword": "char",
+      "type": "true"
+    },
+    {
+      "keyword": "class",
+      "type": "true"
+    },
+    {
+      "keyword": "const",
+      "type": "true"
+    },
+    {
+      "keyword": "continue",
+      "type": "true"
+    },
+    {
+      "keyword": "default",
+      "type": "true"
+    },
+    {
+      "keyword": "do",
+      "type": "true"
+    },
+    {
+      "keyword": "double",
+      "type": "true"
+    },
+    {
+      "keyword": "else",
+      "type": "true"
+    },
+    {
+      "keyword": "enum",
+      "type": "true"
+    },
+    {
+      "keyword": "extends",
+      "type": "true"
+    },
+    {
+      "keyword": "final",
+      "type": "true"
+    },
+    {
+      "keyword": "finally",
+      "type": "true"
+    },
+    {
+      "keyword": "float",
+      "type": "true"
+    },
+    {
+      "keyword": "for",
+      "type": "true"
+    },
+    {
+      "keyword": "goto",
+      "type": "true"
+    },
+    {
+      "keyword": "if",
+      "type": "true"
+    },
+    {
+      "keyword": "implements",
+      "type": "true"
+    },
+    {
+      "keyword": "instanceof",
+      "type": "true"
+    },
+    {
+      "keyword": "int",
+      "type": "true"
+    },
+    {
+      "keyword": "interface",
+      "type": "true"
+    },
+    {
+      "keyword": "long",
+      "type": "true"
+    },
+    {
+      "keyword": "native",
+      "type": "true"
+    },
+    {
+      "keyword": "new",
+      "type": "true"
+    },
+    {
+      "keyword": "package",
+      "type": "true"
+    },
+    {
+      "keyword": "private",
+      "type": "true"
+    },
+    {
+      "keyword": "protected",
+      "type": "true"
+    },
+    {
+      "keyword": "public",
+      "type": "true"
+    },
+    {
+      "keyword": "return",
+      "type": "true"
+    },
+    {
+      "keyword": "strictfp",
+      "type": "true"
+    },
+    {
+      "keyword": "short",
+      "type": "true"
+    },
+    {
+      "keyword": "static",
+      "type": "true"
+    },
+    {
+      "keyword": "super",
+      "type": "true"
+    },
+    {
+      "keyword": "switch",
+      "type": "true"
+    },
+    {
+      "keyword": "synchronized",
+      "type": "true"
+    },
+    {
+      "keyword": "this",
+      "type": "true"
+    },
+    {
+      "keyword": "throw",
+      "type": "true"
+    },
+    {
+      "keyword": "throws",
+      "type": "true"
+    },
+    {
+      "keyword": "transient",
+      "type": "true"
+    },
+    {
+      "keyword": "try",
+      "type": "true"
+    },
+    {
+      "keyword": "void",
+      "type": "true"
+    },
+    {
+      "keyword": "volatile",
+      "type": "true"
+    },
+    {
+      "keyword": "while",
+      "type": "true"
+    },
+    {
+      "keyword": "true",
+      "type": "true"
+    },
+    {
+      "keyword": "false",
+      "type": "true"
+    },
+    {
+      "keyword": "null",
+      "type": "true"
+    },
+    {
+      "keyword": "absrtcat",
+      "type": "false",
+      "rightkey":"abstract"
+    },
+    {
+      "keyword": "accert",
+      "type": "false",
+      "rightkey":"assert"
+    },
+    {
+      "keyword": "boolaen",
+      "type": "false",
+      "rightkey":"boolean"
+    },
+    {
+      "keyword": "braek",
+      "type": "false",
+      "rightkey":"break"
+    },
+    {
+      "keyword": "csea",
+      "type": "false",
+      "rightkey":"case"
+    },
+    {
+      "keyword": "ctach",
+      "type": "false",
+      "rightkey":"catch"
+    },
+    {
+      "keyword": "cher",
+      "type": "false",
+      "rightkey":"char"
+    },
+    {
+      "keyword": "cless",
+      "type": "false",
+      "rightkey":"class"
+    },
+    {
+      "keyword": "canest",
+      "type": "false",
+      "rightkey":"const"
+    },
+    {
+      "keyword": "conitune",
+      "type": "false",
+      "rightkey":"continue"
+    },
+    {
+      "keyword": "dafeult",
+      "type": "false",
+      "rightkey":"default"
+    },
+    {
+      "keyword": "does",
+      "type": "false",
+      "rightkey":"do"
+    },
+    {
+      "keyword": "daubel",
+      "type": "false",
+      "rightkey":"double"
+    },
+    {
+      "keyword": "eles",
+      "type": "false",
+      "rightkey":"else"
+    },
+    {
+      "keyword": "eunm",
+      "type": "false",
+      "rightkey":"enum"
+    },
+    {
+      "keyword": "estands",
+      "type": "false",
+      "rightkey":"extends"
+    },
+    {
+      "keyword": "finnal",
+      "type": "false",
+      "rightkey":"final"
+    },
+    {
+      "keyword": "finaly",
+      "type": "false",
+      "rightkey":"finally"
+    },
+    {
+      "keyword": "flaot",
+      "type": "false",
+      "rightkey":"float"
+    },
+    {
+      "keyword": "far",
+      "type": "false",
+      "rightkey":"for"
+    },
+    {
+      "keyword": "gato",
+      "type": "false",
+      "rightkey":"goto"
+    },
+    {
+      "keyword": "ifes",
+      "type": "false",
+      "rightkey":"if"
+    },
+    {
+      "keyword": "impemlnets",
+      "type": "false",
+      "rightkey":"implements"
+    },
+    {
+      "keyword": "instancetionf",
+      "type": "false",
+      "rightkey":"instanceof"
+    },
+    {
+      "keyword": "ints",
+      "type": "false",
+      "rightkey":"int"
+    },
+    {
+      "keyword": "intrefcae",
+      "type": "false",
+      "rightkey":"interface"
+    },
+    {
+      "keyword": "lang",
+      "type": "false",
+      "rightkey":"long"
+    },
+    {
+      "keyword": "nation",
+      "type": "false",
+      "rightkey":"native"
+    },
+    {
+      "keyword": "now",
+      "type": "false",
+      "rightkey":"new"
+    },
+    {
+      "keyword": "poakage",
+      "type": "false",
+      "rightkey":"package"
+    },
+    {
+      "keyword": "pirivate",
+      "type": "false",
+      "rightkey":"private"
+    },
+    {
+      "keyword": "pretotect",
+      "type": "false",
+      "rightkey":"protected"
+    },
+    {
+      "keyword": "pubilc",
+      "type": "false",
+      "rightkey":"public"
+    },
+    {
+      "keyword": "retrun",
+      "type": "false",
+      "rightkey":"return"
+    },
+    {
+      "keyword": "sticrtfp",
+      "type": "false",
+      "rightkey":"strictfp"
+    },
+    {
+      "keyword": "shrot",
+      "type": "false",
+      "rightkey":"short"
+    },
+    {
+      "keyword": "stitaic",
+      "type": "false",
+      "rightkey":"static"
+    },
+    {
+      "keyword": "sopuer",
+      "type": "false",
+      "rightkey":"super"
+    },
+    {
+      "keyword": "swift",
+      "type": "false",
+      "rightkey":"switch"
+    },
+    {
+      "keyword": "synchcroized",
+      "type": "false",
+      "rightkey":"synchronized"
+    },
+    {
+      "keyword": "thas",
+      "type": "false",
+      "rightkey":"this"
+    },
+    {
+      "keyword": "thrower",
+      "type": "false",
+      "rightkey":"throw"
+    },
+    {
+      "keyword": "thraw",
+      "type": "false",
+      "rightkey":"throws"
+    },
+    {
+      "keyword": "trensiant",
+      "type": "false",
+      "rightkey":"transient"
+    },
+    {
+      "keyword": "tay",
+      "type": "false",
+      "rightkey":"try"
+    },
+    {
+      "keyword": "vaid",
+      "type": "false",
+      "rightkey":"void"
+    },
+    {
+      "keyword": "valotion",
+      "type": "false",
+      "rightkey":"volatile"
+    },
+    {
+      "keyword": "whlie",
+      "type": "false",
+      "rightkey":"while"
+    },
+    {
+      "keyword": "ture",
+      "type": "false",
+      "rightkey":"true"
+    },
+    {
+      "keyword": "felos",
+      "type": "false",
+      "rightkey":"false"
+    },
+    {
+      "keyword": "nall",
+      "type": "false",
+      "rightkey":"null"
+    }
+  ],
+  "python": [
+    {
+      "keyword": "and",
+      "type": "true"
+    },
+    {
+      "keyword": "as",
+      "type": "true"
+    },
+    {
+      "keyword": "assert",
+      "type": "true"
+    },
+    {
+      "keyword": "break",
+      "type": "true"
+    },
+    {
+      "keyword": "class",
+      "type": "true"
+    },
+    {
+      "keyword": "continue",
+      "type": "true"
+    },
+    {
+      "keyword": "def",
+      "type": "true"
+    },
+    {
+      "keyword": "del",
+      "type": "true"
+    },
+    {
+      "keyword": "elif",
+      "type": "true"
+    },
+    {
+      "keyword": "else",
+      "type": "true"
+    },
+    {
+      "keyword": "except",
+      "type": "true"
+    },
+    {
+      "keyword": "finally",
+      "type": "true"
+    },
+    {
+      "keyword": "for",
+      "type": "true"
+    },
+    {
+      "keyword": "from",
+      "type": "true"
+    },
+    {
+      "keyword": "false",
+      "type": "true"
+    },
+    {
+      "keyword": "global",
+      "type": "true"
+    },
+    {
+      "keyword": "if",
+      "type": "true"
+    },
+    {
+      "keyword": "import",
+      "type": "true"
+    },
+    {
+      "keyword": "is",
+      "type": "true"
+    },
+    {
+      "keyword": "in",
+      "type": "true"
+    },
+    {
+      "keyword": "lambda",
+      "type": "true"
+    },
+    {
+      "keyword": "nonlocal",
+      "type": "true"
+    },
+    {
+      "keyword": "not",
+      "type": "true"
+    },
+    {
+      "keyword": "none",
+      "type": "true"
+    },
+    {
+      "keyword": "or",
+      "type": "true"
+    },
+    {
+      "keyword": "pass",
+      "type": "true"
+    },
+    {
+      "keyword": "raise",
+      "type": "true"
+    },
+    {
+      "keyword": "return",
+      "type": "true"
+    },
+    {
+      "keyword": "try",
+      "type": "true"
+    },
+    {
+      "keyword": "true",
+      "type": "true"
+    },
+    {
+      "keyword": "while",
+      "type": "true"
+    },
+    {
+      "keyword": "with",
+      "type": "true"
+    },
+    {
+      "keyword": "yield",
+      "type": "true"
+    },
+    {
+      "keyword": "end ",
+      "type": "false",
+      "rightkey":"and"
+    },
+    {
+      "keyword": "ass",
+      "type": "false",
+      "rightkey":"as"
+    },
+    {
+      "keyword": "aeert",
+      "type": "false",
+      "rightkey":"assert"
+    },
+    {
+      "keyword": "braek",
+      "type": "false",
+      "rightkey":"break"
+    },
+    {
+      "keyword": "closs",
+      "type": "false",
+      "rightkey":"class"
+    },
+    {
+      "keyword": "contion",
+      "type": "false",
+      "rightkey":"continue"
+    },
+    {
+      "keyword": "daf",
+      "type": "false",
+      "rightkey":"def"
+    },
+    {
+      "keyword": "dal",
+      "type": "false",
+      "rightkey":"del"
+    },
+    {
+      "keyword": "eilf",
+      "type": "false",
+      "rightkey":"elif"
+    },
+    {
+      "keyword": "else",
+      "type": "false",
+      "rightkey":"else"
+    },
+    {
+      "keyword": "excepter",
+      "type": "false",
+      "rightkey":"except"
+    },
+    {
+      "keyword": "finaly",
+      "type": "false",
+      "rightkey":"finally"
+    },
+    {
+      "keyword": "far",
+      "type": "false",
+      "rightkey":"for"
+    },
+    {
+      "keyword": "form",
+      "type": "false",
+      "rightkey":"from"
+    },
+    {
+      "keyword": "flaset",
+      "type": "false",
+      "rightkey":"false"
+    },
+    {
+      "keyword": "glabol",
+      "type": "false",
+      "rightkey":"global"
+    },
+    {
+      "keyword": "ifes",
+      "type": "false",
+      "rightkey":"if"
+    },
+    {
+      "keyword": "impart",
+      "type": "false",
+      "rightkey":"import"
+    },
+    {
+      "keyword": "as",
+      "type": "false",
+      "rightkey":"is"
+    },
+    {
+      "keyword": "an",
+      "type": "false",
+      "rightkey":"in"
+    },
+    {
+      "keyword": "lamdba",
+      "type": "false",
+      "rightkey":"lambda"
+    },
+    {
+      "keyword": "nonlacol",
+      "type": "false",
+      "rightkey":"nonlocal"
+    },
+    {
+      "keyword": "nat",
+      "type": "false",
+      "rightkey":"not"
+    },
+    {
+      "keyword": "nane",
+      "type": "false",
+      "rightkey":"none"
+    },
+    {
+      "keyword": "ar",
+      "type": "false",
+      "rightkey":"or"
+    },
+    {
+      "keyword": "poss",
+      "type": "false",
+      "rightkey":"pass"
+    },
+    {
+      "keyword": "riase",
+      "type": "false",
+      "rightkey":"raise"
+    },
+    {
+      "keyword": "retrun",
+      "type": "false",
+      "rightkey":"return"
+    },
+    {
+      "keyword": "tay",
+      "type": "false",
+      "rightkey":"try"
+    },
+    {
+      "keyword": "ture",
+      "type": "false",
+      "rightkey":"true"
+    },
+    {
+      "keyword": "whlie",
+      "type": "false",
+      "rightkey":"while"
+    },
+    {
+      "keyword": "wiith",
+      "type": "false",
+      "rightkey":"with"
+    },
+    {
+      "keyword": "yeild",
+      "type": "false",
+      "rightkey":"yield"
+    }
+  ]
+}
