@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         mp=MediaPlayer.create(this,R.raw.bgm);
+
         mp.setLooping(true);//设置循环播放
 //        am = (AudioManager) this.getSystemService
 //                (this.AUDIO_SERVICE);
