@@ -84,7 +84,7 @@ public class GameViewActivity extends AppCompatActivity implements View.OnClickL
         //设置是否加速
         game.setSpeedUp(true);
         //设置加速度
-        game.setAcceleration(4);
+        game.setAcceleration(15);
         //设置关键字
         game.setKeywords(list);
         //

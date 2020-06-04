@@ -10,6 +10,7 @@ import android.util.AttributeSet;
 import android.view.*;
 import androidx.appcompat.app.AlertDialog;
 import com.hngc.Utils.DensityUtils;
+import com.hngc.Utils.SoundPoolUtil;
 import com.hngc.activity.R;
 
 import java.util.ArrayList;
@@ -43,7 +44,8 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
     private List<Words> wordsList=new ArrayList<>();
     private List<Map<String,String>> errorWords=new ArrayList<>();//失误的单词
     private List<Map<String,String>> keywords=new ArrayList<>();
-
+    private SoundPoolUtil tureTouchSound;
+    private SoundPoolUtil falseTouchSound;
 
 
     private Rect gameRect = new Rect();
@@ -127,6 +129,9 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
         scorePaint.setStrokeWidth(DensityUtils.dp2px(getContext(),3));
 
         initBitmap();
+        //初始化音频
+        tureTouchSound=new SoundPoolUtil(context,R.raw.truetouch);
+        falseTouchSound=new SoundPoolUtil(context,R.raw.falsetouch);
 
     }
 
@@ -192,7 +197,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
             return;
         }
         if (mGameStatus == GameStatus.RUNNING){//游戏运行状态
-            if (wordsList.get(wordsList.size()-1).getY()>mHeight/3){//最后一个单词到了屏幕的1/3位置加载第新的单词
+            if (wordsList.get(wordsList.size()-1).getY()>mHeight/14-200+random.nextInt(600)){//最后一个单词到了屏幕的1/3位置加载第新的单词
                 Words words = new Words(getContext(), random.nextInt(mWidth),-300
                         , mWidth ,mHeight,wordsBitmap,wordsPressBitmap,keywords.get(random.nextInt(keywords.size())));
                 wordsList.add(words);
@@ -200,6 +205,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
             if (wordsList.get(0).getY()>=mHeight){
                 if (!wordsList.get(0).isHasTrueClick() && wordsList.get(0).isKeyWords()){//关键字已经在屏幕下面，但是还没有点击
                     errorWords.add(wordsList.get(0).getMap());
+                    falseTouchSound.play();
                     if(--star<=0){
                         mGameStatus = GameStatus.STOP;
                         handler.sendEmptyMessage(1);
@@ -314,6 +320,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
                         if (downX > x && downX < x + words.getWidth() && downY > y && downY < y + words.getHeight()) {
                             //只判断一次就跳出循环
                             if(words.isKeyWords()){
+                                tureTouchSound.play();
                                 speedUp();//加速默认关闭
                                 if(++score>=50){
                                     mGameStatus = GameStatus.STOP;
@@ -322,6 +329,7 @@ public class GameSurfaceView extends SurfaceView implements SurfaceHolder.Callba
 
                             }else {
                                 errorWords.add(words.getMap());
+                                falseTouchSound.play();
                                 if(--star<=0){
                                     mGameStatus = GameStatus.STOP;
                                     handler.sendEmptyMessage(1);
