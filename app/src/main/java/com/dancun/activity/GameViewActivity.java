@@ -73,7 +73,8 @@ public class GameViewActivity extends AppCompatActivity implements View.OnClickL
     }
     private  void dataIni(){
         module=(String)getIntent().getSerializableExtra("module");
-        list= KeyWordsUtils.getKeyWordList(this,module);
+//        list= KeyWordsUtils.getKeyWordList(this,module);
+        list= (List<Map<String, String>>) getIntent().getSerializableExtra("list");
         setValues(game);
 
 
