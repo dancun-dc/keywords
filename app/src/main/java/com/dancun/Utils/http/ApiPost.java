@@ -1,5 +1,8 @@
 package com.dancun.Utils.http;
 
+import android.os.Handler;
+import android.os.Message;
+
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -12,7 +15,8 @@ import java.util.Map;
 
 public class ApiPost {
     private List<Map<String,Object>> list = new ArrayList<>();
-    public List<Map<String,Object>> getcount(Map<String,Object> arg) {
+    private Message message = Message.obtain();
+    public List<Map<String,Object>> getword(Map<String,Object> arg, Handler handler) {
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl("http://47.115.4.140/")//设置网络请求url，后面一段写在网络请求接口里面
                 .addConverterFactory(GsonConverterFactory.create())//添加Gson支持，然后Retrofit就会使用Gson将响应体（api接口的Take）转换我们想要的类型。
@@ -31,12 +35,16 @@ public class ApiPost {
             @Override
             public void onResponse(Call<List<Map<String,Object>>> call, Response<List<Map<String,Object>>> response) {
                 list=response.body();
+                message.obj=list;
+                handler.sendMessage(message);
 
             }
 
             //            请求失败
             @Override
             public void onFailure(Call<List<Map<String,Object>>> call, Throwable t) {
+                message.obj=list;
+                handler.sendMessage(message);
 
             }
         });
