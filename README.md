@@ -2,6 +2,7 @@
 
 #### 介绍
 简单的一个编程小游戏 和划水(跑路)队友一起做的，没用什么框架，就是简单的canvas paint bitmap完成的代码都有注释 
+还有一个后台服务，所有关键字有后台提供[项目地址](https://gitee.com/dancun/keyword)
 
 #### 软件架构
 简单的一个编程小游戏 和划水(跑路)队友一起做的，没用什么框架，就是简单的canvas paint bitmap完成的代码都有注释
@@ -29,27 +30,7 @@
 1.   提交代码 @无关几何
 
   
-#### sql代码
-  --drop database keyword
-  create database keyword on(
-  name='keywordDB',
-  filename='c:\database\keywordDB.mdf',
-  size=10mb,
-  maxsize=40mb,
-  filegrowth=2mb
-  ) log on(
-  name='keywordDB_log',
-  filename='c:\database\keywordDB_log.ldf',
-  size=5mb,
-  maxsize=20mb,
-  filegrowth=1mb
-  )
-  
-  create table score(
-  	username varchar(20) primary key not null,
-  	password varchar(20) not null,
-  	score int default(0) not null
-  )
+
 
 
 
