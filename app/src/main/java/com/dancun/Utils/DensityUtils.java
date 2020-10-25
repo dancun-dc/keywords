@@ -1,4 +1,4 @@
-package com.hngc.Utils;
+package com.dancun.Utils;
 
 import android.content.Context;
 import android.util.TypedValue;

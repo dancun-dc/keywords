@@ -1,4 +1,4 @@
-package com.hngc.adapter;
+package com.dancun.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
-import com.hngc.activity.R;
+import com.dancun.activity.R;
 import java.util.List;
 import java.util.Map;
 

@@ -1,10 +1,8 @@
-package com.hngc.Utils;
+package com.dancun.Utils;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.media.SoundPool;
-import android.util.Log;
-import com.hngc.activity.R;
 
 /**
  * @author hph18

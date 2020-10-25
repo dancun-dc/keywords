@@ -1,8 +1,8 @@
-package com.hngc.Utils;
+package com.dancun.Utils;
 
 import android.content.Context;
 import android.content.res.AssetManager;
-import com.hngc.entity.KeyWord;
+import com.dancun.entity.KeyWord;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;

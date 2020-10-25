@@ -1,8 +1,8 @@
-package com.hngc.view;
+package com.dancun.view;
 
 import android.content.Context;
 import android.graphics.*;
-import com.hngc.Utils.DensityUtils;
+import com.dancun.Utils.DensityUtils;
 
 import java.util.Map;
 import java.util.Random;

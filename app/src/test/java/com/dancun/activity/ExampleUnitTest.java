@@ -1,6 +1,6 @@
-package com.hngc.activity;
+package com.dancun.activity;
 
-import com.hngc.entity.KeyWord;
+import com.dancun.entity.KeyWord;
 
 import org.json.JSONArray;
 import org.junit.Test;

@@ -1,4 +1,4 @@
-package com.hngc.activity;
+package com.dancun.activity;
 
 import android.os.Handler;
 import android.os.Message;
@@ -6,13 +6,13 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import com.hngc.Utils.KeyWordsUtils;
-import com.hngc.adapter.GameOverAdapter;
-import com.hngc.view.GameSurfaceView;
+import com.dancun.Utils.KeyWordsUtils;
+import com.dancun.adapter.GameOverAdapter;
+import com.dancun.view.GameSurfaceView;
 
 import java.util.List;
 import java.util.Map;

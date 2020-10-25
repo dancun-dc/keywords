@@ -1,4 +1,4 @@
-package com.hngc.view;
+package com.dancun.view;
 
 
 import android.content.Context;
@@ -9,9 +9,9 @@ import android.os.Message;
 import android.util.AttributeSet;
 import android.view.*;
 import androidx.appcompat.app.AlertDialog;
-import com.hngc.Utils.DensityUtils;
-import com.hngc.Utils.SoundPoolUtil;
-import com.hngc.activity.R;
+import com.dancun.Utils.DensityUtils;
+import com.dancun.Utils.SoundPoolUtil;
+import com.dancun.activity.R;
 
 import java.util.ArrayList;
 import java.util.List;

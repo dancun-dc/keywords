@@ -1,4 +1,4 @@
-package com.hngc.entity;
+package com.dancun.entity;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
